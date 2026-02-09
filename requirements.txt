@@ -1,0 +1,12 @@
+langchain
+langgraph
+langchain-community
+langchain-ollama
+langchain-huggingface
+langchain-chroma
+chromadb
+sentence-transformers
+pytesseract
+pillow
+fastapi
+uvicorn
