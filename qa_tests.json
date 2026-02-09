@@ -1,0 +1,33 @@
+[
+  {
+    "question": "When did the printing press revolutionize information access?",
+    "keywords": ["gutenberg", "15th century", "printing press"]
+  },
+  {
+    "question": "How did telegraph and telephone impact communication?",
+    "keywords": ["near-instantaneous", "communication", "voice"]
+  },
+  {
+    "question": "What were the early uses of digital computers?",
+    "keywords": ["world war ii", "encrypted", "mathematical"]
+  },
+  {
+    "question": "Which companies contributed to the rise of personal computers?",
+    "keywords": ["apple", "ibm", "microsoft"]
+  },
+  {
+    "question": "What is the significance of databases in information systems?",
+    "keywords": ["structured", "information", "queries", "reports"]
+  },
+  
+  {
+    "question": "Which company invented the graphical user interface?",
+    "keywords": ["xerox", "gui", "alan kay"]
+  },
+  {
+    "question": "What year was the first personal computer introduced?",
+    "keywords": ["1970s", "altair", "personal computer"]
+  }
+
+
+]

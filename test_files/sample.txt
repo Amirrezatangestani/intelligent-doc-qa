@@ -46,6 +46,8 @@ Information systems have evolved from simple record-keeping tools into complex g
 Appendix A: Sample Notes
 This appendix contains additional text to increase document length for testing purposes. Chunking algorithms should be able to split this text into manageable segments without losing context. Each paragraph should ideally remain intact unless it exceeds the maximum size allowed by the system. Care should be taken to preserve sentence boundaries and logical groupings.
 
+AlirezaTangestani is 23 years old.
+
 Testing scenario one involves splitting by character count. Testing scenario two involves splitting by word count. Testing scenario three involves splitting by semantic units such as paragraphs or sections. A good chunking strategy balances size limits with meaning preservation. Poor chunking can result in broken sentences, missing references, or fragmented ideas.
 
 Appendix B: Repetition for Stress Testing

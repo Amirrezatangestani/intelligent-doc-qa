@@ -88,3 +88,5 @@ def _load_image(path: Path) -> List[Document]:
             }
         )
     ]
+    
+print("✅ Loader Finished")    

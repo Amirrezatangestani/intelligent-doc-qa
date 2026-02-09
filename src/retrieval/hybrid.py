@@ -1,6 +1,7 @@
 from typing import List
 from langchain_core.documents import Document
-from langchain_community.chat_models import ChatOllama
+from langchain_ollama import ChatOllama
+
 
 from src.retrieval.vector import VectorRetriever
 from src.retrieval.bm25 import BM25DocRetriever
