@@ -3,9 +3,9 @@ from src.ingestion.splitter import split_documents
 from src.ingestion.indexer import index_documents
 
 files = [
-    "test_files/sample.pdf",
-    "test_files/sample.txt",
-    "test_files/sample.docx",
+    "docs/sample.pdf",
+    "docs/sample.txt",
+    "docs/sample.docx",
 ]
 
 all_docs = []

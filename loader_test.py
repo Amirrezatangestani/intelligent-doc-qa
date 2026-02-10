@@ -7,17 +7,13 @@ from src.retrieval.hybrid import HybridRetriever
 from src.retrieval.vector import VectorRetriever
 from src.retrieval.bm25 import BM25DocRetriever
 from src.agents.citation_reasoning import CitationReasoningAgent
+from src.ingestion.load_directory import load_documents_from_dir
 from pathlib import Path
 
 # مسیر نمونه فایل‌ها
 
 
-TEST_FILES = [
-    "test_files/sample.txt",
-    "test_files/sample.pdf",
-    "test_files/sample.docx",
-    "test_files/sample.png",
-]
+TEST_FILES = load_documents_from_dir("docs")
 
 
 

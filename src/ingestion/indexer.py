@@ -2,8 +2,8 @@ from typing import List
 from pathlib import Path
 
 from langchain_core.documents import Document
-from langchain_community.vectorstores import Chroma
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_chroma import Chroma
+from langchain_huggingface import HuggingFaceEmbeddings
 
 
 PERSIST_DIR = "data/vectorstore"
@@ -32,7 +32,7 @@ def index_documents(
         persist_directory=persist_dir,
     )
 
-    vectorstore.persist()
+
     return vectorstore
 
 

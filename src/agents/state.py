@@ -3,14 +3,17 @@ from langchain_core.documents import Document
 
 
 class QAState(TypedDict, total=False):
-    # user input
     question: str
 
-    # retriever output
+    # intent routing
+    intent: str
+    target_language: Optional[str]
+    chat_history: List[Dict]
+    # retrieval
     docs: List[Document]
 
-    # reasoning agent output (structured)
+    # reasoning
     reasoning_output: Dict
 
-    # final utility output
+    # final
     final_answer: str
